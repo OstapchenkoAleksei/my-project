@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: #001821;
+}
+
+h1,
+h2,
+h3,
+p
+{
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  height: 123px;
+  margin-bottom: 73px;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  top: 29px;
+}
+
+.menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 42px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 14px;
+}
+
+.menu__link:hover {
+  color: #f5170e;
+}
+
+.contacts__tel {
+  display: block;
+  font-size: 26px;
+}
+
+.contacts {
+  position: absolute;
+  top: 27px;
+  right: 0;
+}
+
+.contacts__graph {
+  font-size: 13px;
+}
+
+.prewiev {
+  width: 600px;
+}
+
+.prewiev__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+  max-width: 55%;
+  margin-bottom: 25px;
+}
+
+.prewiev__text {
+  font-size: 18px;
+  width: 200px;
+  height: 20px;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #f5170e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 30px;
+  max-width: 50%;
+  text-transform: uppercase;
+  padding: 13px 40px;
+  margin-bottom: 300px;
+}
+
+.hot-tour__header {
+  min-height: 144px;
+  padding-top: 15px;
+}
+
+.hot-tour__content {
+  background-color: #fff;
+  color: #666;
+}
+
+.hot-tour__title-text {
+  display: inline-block;
+  font-size: 36px;
+}
+
+.hot-tour__info {
+  padding-left: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #666;
+}
+
+.hot-tour__item {
+  display: inline-block;
+  max-height: 362px;
+  width: 359px;
+  margin-right: 27px;
+  max-height: 362px;
+}
+
+.hot-tour__item:last-child {
+  margin-right: 0;
+}
+
+.hot-tour__button--border {
+  border-color: #f5170e;
+  color: #f5170e;
+  background-color: #fff;
+  border: 1px;
+}
+
+.hot-tour__button {
+  max-height: 80px;
+  background-color: #fff;
+}
+.hot-tour__date-text {
+  display: inline-block;
+  width: 90px;
+  color: #666;
+}
+
+.hot-tour__subtitle {
+  padding-left: 10px;
+  font-size: 24px;
+  color: #000;
+}
+
+.hot-tour__date-icon {
+  padding-left: 10px;
+}
+
+.hot-tour__date-block {
+  padding-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.news__title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.news__item {
+  position: relative;
+  display: inline-block;
+  width: 555px;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.news__bg-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.new__content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 30px 20px;
+  min-height: 120px;
+}
+
+.news__date {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.news__subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.news__info {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.news {
+  margin-bottom: 50px;
+}
+
+.paginator {
+  text-align: center;
+}
+
+.paginator__display,
+.paginator__list,
+.paginator__item {
+  display: inline-block;
+}
+
+.paginator__link {
+  display: inline-block;
+  height: 31px;
+  width: 31px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50%;
+  line-height: 31px;
+  background: transparent;
+}
+
+.paginator__link:hover {
+  background-color: #f5170e;
+}
+
+.about:before, .about__desc {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about:before {
+  content: "";
+  width: 505px;
+  height: 490px;
+  background: url(./img/gates.png) center center / cover no-repeat;
+}
+
+.about__desc {
+  width: 780px;
+ background: url(./img/mountains.png);
+  padding: 80px 98px;
+  margin-left: -150px;
+  margin-top: 260px;
+}
+
+.about__title {
+font-weight: 700;
+font-size: 36px;
+color: #000;
+margin-bottom: 40px;
+}
+
+.about__desc-text {
+color: #fff;
+font-size: 16px;
+margin-bottom: 42px;
+}
+
+.about__desc-text p {
+  margin-bottom: 20px;
+}
+
+.about__desc-text p:last-child {
+margin-bottom: 0;
+}
